@@ -1,0 +1,18 @@
+roxana:
+    business:
+      response-strategy: FULLY
+#        response-strategy: UNCHANGED
+#        response-strategy: TRANSLATED
+
+      exception-handler:
+        suppress-others-exceptions: true
+#        suppress-others-exceptions: false
+
+    message-bundle:
+        base-name: locale/messages
+
+#        locale: en-US
+        locale: pt-BR
+
+#        suppress-fails-translations: true
+        supress-fails-translations: true
